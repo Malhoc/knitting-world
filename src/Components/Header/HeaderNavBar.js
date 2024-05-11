@@ -243,27 +243,38 @@ export default function HeaderNavBar() {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                      <DropdownMenuNavBar title={"Home"} links={homeLinks} />
-
-                      <CatalogDropDown
+                      {/* <DropdownMenuNavBar title={"Home"} links={homeLinks} /> */}
+                      {/* <CatalogDropDown
                         title={"Catalog"}
                         catagoryLinks={catagoryLinks}
-                      />
+                      /> */}
+                      {/* <ShopDropdown title={"shop"} shopLinks={shopLinks} /> */}
+                      {/* <DropdownMenuNavBar title={"Pages"} links={pagesLinks} /> */}
+                      {/* <DropdownMenuNavBar title={"Blog"} links={blogLinks} /> */}
 
-                      <ShopDropdown title={"shop"} shopLinks={shopLinks} />
-
-                      <DropdownMenuNavBar title={"Pages"} links={pagesLinks} />
-
-                      <DropdownMenuNavBar title={"Blog"} links={blogLinks} />
-
+                      <li className="nav-item">
+                        <Link to="/" className="nav-link">
+                          Home 
+                        </Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link to="/shop-grid-no-sidebar" className="nav-link">
+                          Shop
+                        </Link>
+                      </li>
                       <li className="nav-item">
                         <Link to="/contact-us" className="nav-link">
                           Contact
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link to="/about-us" className="nav-link">
+                          About
+                        </Link>
+                      </li>
                     </ul>
                   </div>
-                  <div className="right-nav align-items-center d-flex justify-content-end">
+                  {/* <div className="right-nav align-items-center d-flex justify-content-end">
                     <Link className="login-btn btn-link ms-3" to="/login">
                       <i className="las la-user-alt"></i>
                     </Link>
@@ -287,17 +298,17 @@ export default function HeaderNavBar() {
                         <span className="text-dark">{cartItems1.length} Items - ${calculateTotal()}</span>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </nav>
               </Col>
-              {/* <!--menu end--> */}
+             
             </Row>
           </Container>
 
         </div>
       </header>
 
-      <Modal
+      {/* <Modal
         isOpen={cartOpen}
         toggle={toggleCartList}
         className="cart-modal"
@@ -382,8 +393,8 @@ export default function HeaderNavBar() {
             <i className="las la-money-check mr-1"></i>Continue To Checkout
           </Link>
         </ModalBody>
-      </Modal>
-      <Modal
+      </Modal> */}
+      {/* <Modal
         className="cart-modal"
         direction="end"
         isOpen={wishListOpen}
@@ -425,7 +436,7 @@ export default function HeaderNavBar() {
                             dispatch(removeWishListItem(product.id));
                           }}
                         >
-                          {/* <AiOutlineCloseCircle /> */}
+                          
                           <i className="las la-times"></i>
                         </Button>
                       </div>
@@ -456,7 +467,7 @@ export default function HeaderNavBar() {
                         onClick={() => handleAddToCart(product)}
                         className="mx-2 btn text-white fs-1 ms-auto "
                       >
-                        {/* <BsFillCartCheckFill /> */}
+                        
                         <i className="las la-shopping-cart"></i>
 
                       </span>
@@ -483,7 +494,7 @@ export default function HeaderNavBar() {
             <i className="las la-money-check mr-1"></i>Continue To Checkout
           </Link>
         </ModalBody>
-      </Modal>
+      </Modal> */}
     </div>
     </>
   );
