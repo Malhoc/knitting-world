@@ -17,6 +17,9 @@ h6, .h6 { font-size: 18px; line-height: 28px; }
 h4, h5, h6, .h4, .h5, .h6 { font-weight: 500; }
 p { color: #8090b5; line-height: 1.7; }
 
+/* .nav-bg{
+    background-color: #f85438;
+} */
 .lead { font-size: 1.25rem; font-weight: 300; }
 section { padding: 5rem 0 }
 ul { margin: 0px; padding: 0px; }
@@ -182,7 +185,7 @@ header .navbar-nav .nav-item { margin: 0 15px }
     .site-header .navbar-nav .nav-item { margin: 0; }
     .site-header .navbar-nav .nav-link { padding: 10px !important; border-radius: 0; }
     .navbar-nav a .sub-arrow { position: absolute; top: 50%; right: 0; margin: -0.7em 0.5em 0 0; border-radius: .25rem; padding: 0; width: 2em; height: 1.4em; font-size: 1.25rem; line-height: 1.2em; text-align: center; }
-    .navbar-collapse { border-radius: 7px; background: #ffffff; max-height: 400px; left: 0; padding: 10px; position: absolute; z-index: 99; top: 50px; width: 100%; overflow: auto; border: medium none; -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); -moz-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); }
+    .navbar-collapse { border-radius: 7px; background: #b75f5f; max-height: 400px; left: 0; padding: 10px; position: absolute; z-index: 99; top: 50px; width: 100%; overflow: auto; border: medium none; -webkit-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); -moz-box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15); }
     .navbar-nav .dropdown-toggle::after { position: absolute; top: 50%; right: 0; margin: -.5rem 0.5em 0 0; }
     .site-header.navbar-dark .navbar-nav .nav-link { color: rgba(0, 0, 0, .5) }
     .site-header.navbar-dark .navbar-nav .nav-link.active, .site-header.navbar-dark .navbar-nav .nav-link:focus, .site-header.navbar-dark .navbar-nav .nav-link:hover { color: #fe4c1c; }

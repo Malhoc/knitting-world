@@ -220,14 +220,14 @@ export default function HeaderNavBar() {
 
   return (
     <><div>
-      <header className="site-header">
+      <header className="site-header nav-bg">
 
-        <div id="header-wrap" className="shadow-sm">
+        <div id="header-wrap" className="shadow-sm ">
           <Container className="container">
             <Row>
               {/* <!--menu start--> */}
               <Col>
-                <nav className="navbar navbar-expand-lg navbar-light position-static">
+                <nav className="navbar navbar-expand-lg navbar-light position-static ">
                   <Link className="navbar-brand logo d-lg-none" to="/">
                     <img className="img-fluid" src="assets/images/logo.png" alt="" />
                   </Link>

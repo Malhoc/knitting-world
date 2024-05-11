@@ -10,13 +10,10 @@ export default function Footer() {
             <div className="col-12 col-lg-3">
               {" "}
               <Link className="footer-logo text-white h2 mb-0" to="/">
-                Eko<span className="text-primary">cart</span>
+                Knitting<span className="text-primary">World</span>
               </Link>
               <p className="my-3 text-muted">
-                Ekocart - Multi-purpose E-commerce Html5 Template Is fully
-                responsible, Build whatever you like with the Ekocart, Ekocart
-                is the creative, modern HTML5 Template suitable for Your
-                business.
+               Creating warmth stitch by stitch, our business crafts cozy scarves and gloves, knitting comfort into every thread for your winter embrace.
               </p>
               <ul className="list-inline mb-0">
                 <li className="list-inline-item">
@@ -46,8 +43,8 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-12 col-lg-6 mt-6 mt-lg-0">
-              <div className="row">
+            <div className="col-12 col-lg-6 mt-6 mt-lg-0 ">
+              <div className="row flex justify-content-center">
                 <div className="col-12 col-sm-4 navbar-dark">
                   <h5 className="mb-4 text-white">Quick Links</h5>
                   <ul className="navbar-nav list-unstyled mb-0">
@@ -71,11 +68,11 @@ export default function Footer() {
                         Faq
                       </Link>
                     </li>
-                    <li className="mb-3 nav-item">
+                    {/* <li className="mb-3 nav-item">
                       <Link className="nav-link" to="blog-card">
                         Blogs
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <Link className="nav-link" to="contact-us">
                         Contact Us
@@ -83,7 +80,7 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-                <div className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
+                {/* <div className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
                   <h5 className="mb-4 text-white">Top Products</h5>
                   <ul className="navbar-nav list-unstyled mb-0">
                     <li className="mb-3 nav-item">
@@ -122,7 +119,7 @@ export default function Footer() {
                       </Link>
                     </li>
                   </ul>
-                </div>
+                </div> */}
                 <div className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
                   <h5 className="mb-4 text-white">Features</h5>
                   <ul className="navbar-nav list-unstyled mb-0">
@@ -212,13 +209,13 @@ export default function Footer() {
           <hr className="my-8" />
           <div className="row text-muted align-items-center">
             <div className="col-md-7">
-              Copyright ©2020 All rights reserved | This Template is made by{" "}
-              <i className="lar la-heart text-primary heartBeat2"></i>{" "}
-              <u>
+              Copyright ©2020 All rights reserved | 
+              {/* <i className="lar la-heart text-primary heartBeat2"></i>{" "} */}
+              {/* <u>
                 <Link className="text-primary" to="#">
                   SkyTouch Infotech
                 </Link>
-              </u>
+              </u> */}
             </div>
             <div className="col-md-5 text-md-right mt-3 mt-md-0">
               <ul className="list-inline mb-0">
