@@ -99,7 +99,7 @@ function App() {
           </div>
         </div>
       )}
-      {showModal && (<>
+      {/* {showModal && (<>
         <div className="modal fade" id="mailchimpModal" tabIndex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
           <div className="modal-dialog" role="document">
             <div className="modal-content" data-bg-img="assets/images/bg/08.png" style={{ backgroundImage: 'assets/images/bg/08.png' }}>
@@ -128,7 +128,7 @@ function App() {
             </div>
           </div>
         </div></>
-      )}
+      )} */}
       <ToastContainer
         position="top-right"
         autoClose={5000}

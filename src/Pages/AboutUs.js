@@ -78,8 +78,8 @@ function AboutUs() {
                                 <div>
                                     <h6 className="text-primary mb-1">— About Us</h6>
                                     <h2 className="mt-3 font-w-5">We Have New Talents Experience</h2>
-                                    <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                                    <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    <p className="lead">At Knitting World, we weave the threads of passion and performance to create knitted sports scarves and gloves that transcend the ordinary.</p>
+                                    <p className="mb-0">With a commitment to quality craftsmanship, innovation, and sustainability, we empower athletes and fans to embrace their love for sports with style and comfort.</p>
                                 </div>
                             </Col>
                         </div>
@@ -88,14 +88,14 @@ function AboutUs() {
                                 <h5>
                                     <span className="text-primary font-w-7">01.</span> Our Mission
                                 </h5>
-                                <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model infancy.</p>
+                                <p>Our mission is to craft high-performance knitted sports scarves and gloves that elevate the experience of athletes and supporters worldwide.</p>
                             </Col>
                             <Col lg="4" md="4">
                                 <h5>
                                     <span className="text-primary font-w-7">02.</span> Our Vision
                                 </h5>
                                 <p>
-                                    Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia Neque porro est.
+                                To be the premier provider of knitted sports accessories, inspiring athletes and fans alike with our innovative designs, superior quality, and unwavering commitment to excellence.
                                 </p>
                             </Col>
                             <Col lg="4" md="4">
@@ -103,7 +103,7 @@ function AboutUs() {
                                     <span className="text-primary font-w-7">03.</span> Our Value
                                 </h5>
                                 <p>
-                                    Officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et non recusandae.
+                                Crafting superior knitted sports accessories with innovation and quality, we inspire passion and performance while championing sustainability and community engagement.
                                 </p>
                             </Col>
                         </Row>
@@ -120,7 +120,7 @@ function AboutUs() {
                             </Col>
                             <Col lg="6">
                                 <div>
-                                    <p className="lead mb-0">All types of businesses need access to development resources, so we give you the option to decide how much you need to use.</p>
+                                    <p className="lead mb-0">Choose Knitting World for unparalleled quality, innovation, sustainability, and passion for sports.</p>
                                 </div>
                             </Col>
                         </Row>

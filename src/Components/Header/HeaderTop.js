@@ -30,7 +30,7 @@ export default function HeaderTop() {
               <div className="d-none d-md-flex align-items-center">
                 <small className="mr-3">
                   <i className="las la-store text-primary mr-1 align-middle"></i>
-                  Welcome to Our store Ekocart
+                  Welcome to Our Knitting World
                 </small>{" "}
                 <small>
                   <i className="las la-truck text-primary mr-1 align-middle"></i>
@@ -40,12 +40,12 @@ export default function HeaderTop() {
               <div className="d-flex align-items-center">
                 <div className="language-selection mr-2">
                   <div className="dropdown">
-                    <button
+                    {/* <button
                       className="btn btn-sm text-white dropdown-toggle"
                       data-toggle="dropdown"
                     >
                       {selectedLanguage}
-                    </button>
+                    </button> */}
                     <div className="dropdown-menu">
                       {languages.map((language) => (
                         <Link

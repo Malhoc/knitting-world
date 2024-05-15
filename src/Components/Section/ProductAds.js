@@ -40,7 +40,7 @@ const ProductAds = () => {
             discount={50}
           />
           <ProductAd
-            imageSrc="assets/images/product-ad/white-gloves.jpg"
+            imageSrc="assets/images/product-ad/Gloves_thumbnail_cat.jpg"
             title="2020 Collection"
             subTitle="New Stylish Trendy Gloves"
           />

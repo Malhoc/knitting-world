@@ -11,8 +11,8 @@ export default function Header() {
         <HeaderMiddle
           options={[
             { value: "All", label: "All Categories" },
-            { value: "Scarves", label: "Men" },
-            { value: "Gloves", label: "Women" },
+            { value: "Scarves", label: "Scarves" },
+            { value: "Gloves", label: "Gloves" },
             
           ]}
         />
