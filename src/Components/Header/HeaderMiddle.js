@@ -18,7 +18,7 @@ export default function HeaderMiddle(props) {
                 <div className="media-body">
                   <span className="mb-0 d-block">Call Us</span>
                   <Link className="text-muted" to="tel:+912345678900">
-                    +91-234-567-8900
+                    +44-0208-1276-480                    
                   </Link>
                 </div>
               </div>

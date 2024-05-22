@@ -13,7 +13,9 @@ export default function Footer() {
                 Knitting<span className="text-primary">World</span>
               </Link>
               <p className="my-3 text-muted">
-               Creating warmth stitch by stitch, our business crafts cozy scarves and gloves, knitting comfort into every thread for your winter embrace.
+                Creating warmth stitch by stitch, our business crafts cozy
+                scarves and gloves, knitting comfort into every thread for your
+                winter embrace.
               </p>
               <ul className="list-inline mb-0">
                 <li className="list-inline-item">
@@ -166,7 +168,7 @@ export default function Footer() {
                 <div>
                   <h6 className="mb-1 text-light">Store address</h6>
                   <p className="mb-0 text-muted">
-                    423B, Road Wordwide Country, USA
+                    Unit 26, Etloe Road Leyton Business Centre E10 7BT, London
                   </p>
                 </div>
               </div>
@@ -177,9 +179,13 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6 className="mb-1 text-light">Email Us</h6>
-                  <Link className="text-muted" to="mailto:skytouchinfotech01@gmail.com">
+                  <Link
+                    className="text-muted"
+                    to="#"
+                  >
                     {" "}
-                    skytouchinfotech01@gmail.com                  </Link>
+                    info@knittingworld.co.uk{" "}
+                  </Link>
                 </div>
               </div>
               <div className="d-flex mb-3">
@@ -189,8 +195,9 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6 className="mb-1 text-light">Phone Number</h6>
-                  <Link className="text-muted" to="tel:+912345678900">
-                    +91-234-567-8900
+                  <Link className="text-muted" to="#">
+                    +44-0208-1276-480<br/>
+                    +44-0744-844-8694
                   </Link>
                 </div>
               </div>
@@ -201,7 +208,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <h6 className="mb-1 text-light">Working Hours</h6>
-                  <span className="text-muted">Mon - Fri: 10AM - 7PM</span>
+                  <span className="text-muted">Mon - Fri: 8AM - 6PM</span>
                 </div>
               </div>
             </div>
@@ -209,7 +216,7 @@ export default function Footer() {
           <hr className="my-8" />
           <div className="row text-muted align-items-center">
             <div className="col-md-7">
-              Copyright ©2020 All rights reserved | 
+              Copyright ©2020 All rights reserved |
               {/* <i className="lar la-heart text-primary heartBeat2"></i>{" "} */}
               {/* <u>
                 <Link className="text-primary" to="#">

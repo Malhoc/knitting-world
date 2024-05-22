@@ -5,8 +5,8 @@
 export default [
     {
         "id": 1,
-        "name": "Women Lather Jacket",
-        "pictures": ["product/main/football-scarf-1.jpeg", "product/main/football-scarf-2.jpeg"],
+        "name": "Knitted Sports Scraf",
+        "pictures": ["product/main/01.jpg", "product/main/02.jpg"],
         "stock": 32,
         "price": 3500,
         "discount": 1000,
@@ -20,7 +20,7 @@ export default [
     },
     {
         "id": 2,
-        "name": "Women Sweater",
+        "name": "Knitted Sports Scraf",
         "pictures": ["product/main/03.jpg", "product/main/04.jpg"],
         "stock": 32,
         "price": 2400,
@@ -28,14 +28,15 @@ export default [
         "salePrice": 1800,
         "description": "Burgundy mini crossbody bag. Oval shape. Adjustable and removable wide shoulder strap. Lined interior. Magnetic clasp closure.",
         "rating": 5,
-        "tags": ["Women"],
-        "size": ["M", "XL"],
-        "category": "Women",
+        "tags": ["Scarves"],
+        // "size": ["M", "XL"],
+        "size": ["Regular"],
+        "category": "Scarves",
         "colors": ["Purple"]
     },
     {
         "id": 3,
-        "name": "Gold Framed Sunglasses",
+        "name": "Knitted Sports Scraf",
         "pictures": ["product/main/05.jpg", "product/main/06.jpg"],
         "stock": 64,
         "price": 1200,
@@ -43,9 +44,9 @@ export default [
         "salePrice": 900,
         "description": "Versatile gold unisex sunglasses from Sundown, that offer protection from harmful UV rays while rendering a comfortable and stylish fit SIZE GUIDE",
         "rating": 5,
-        "tags": ["Men"],
+        "tags": ["Scarves"],
         "size": ["54"],
-        "category": "Men",
+        "category": "Scarves",
         "colors": ["Gold"]
     },
     {
@@ -65,7 +66,7 @@ export default [
     },
     {
         "id": 5,
-        "name": "Luxury Fashion Bag",
+        "name": "Knitted Sports Scraf",
         "pictures": ["product/main/09.jpg", "product/main/10.jpg"],
         "stock": 18,
         "price": 1900,
@@ -81,7 +82,7 @@ export default [
 
     {
         "id": 6,
-        "name": "Bright Hipster Cloth",
+        "name": "Knitted Sports Scraf",
         "pictures": ["product/main/11.jpg", "product/main/12.jpg"],
         "stock": 18,
         "price": 3200,
@@ -96,7 +97,7 @@ export default [
     },
     {
         "id": 7,
-        "name": "Men's Brand Tshirts",
+        "name": "Knitted Sports Gloves",
         "pictures": ["product/main/13.jpg", "product/main/14.jpg"],
         "stock": 18,
         "price": 1800,
@@ -126,7 +127,7 @@ export default [
     },
     {
         "id": 9,
-        "name": "iphone 11 Pro",
+        "name": "Knitted Sports Scraf",
         "pictures": ["electronic/product/04.jpg", "electronic/product/04.jpg"],
         "stock": 18,
         "price": 1900,
@@ -141,7 +142,7 @@ export default [
     },
     {
         "id": 10,
-        "name": "Film Roll And Kodak",
+        "name": "Knitted Sports Scraf",
         "pictures": ["electronic/product/03.jpg", "electronic/product/03.jpg"],
         "stock": 18,
         "price": 1200,
@@ -156,7 +157,7 @@ export default [
     },
     {
         "id": 11,
-        "name": "Amazon Echo Speaker",
+        "name": "Knitted Sports Gloves",
         "pictures": ["electronic/product/01.jpg", "electronic/product/01.jpg"],
         "stock": 18,
         "price": 1900,
