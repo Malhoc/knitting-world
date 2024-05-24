@@ -13,7 +13,10 @@ import ProductIndex from "../Components/Trending/ProductIndex";
 import ProductAds from "../Components/Section/ProductAds";
 import ContactForm from "./contact/ContactForm";
 import ContactSec from "../Components/Section/ContactSec";
-
+import Countdown3 from "../Components/Countdown/CountDown3";
+import { Col, Container, Row } from 'reactstrap'
+import { Link } from "react-router-dom";
+import AboutSection from "../Components/AboutSection";
 export default function Index() {
   const feature = [
     {
@@ -69,7 +72,9 @@ export default function Index() {
         <NewCollection />
         {/* <Section /> */}
         <NewsletterSection />
+        {/* <Countdown3 /> */}
         <LogoSection logos={logos} />
+        <AboutSection/>
         <BlogSection blogs={filteredBlogs} title={"Fashion Blog"} />
         <ContactSec />
         <InstagramSection />

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
-
 const LogoSection = ({ logos }) => {
   return (
     <section className="p-0 mt-n11">

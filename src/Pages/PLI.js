@@ -34,6 +34,7 @@ function PLI() {
     const allProducts = useSelector((state) => state.products.allProducts);
 
     const id = useSelector((state) => state.products.selectedProduct);
+    console.log('Product id is:', id);
     const filteredProducts = useSelector(
         (state) => state.products.filteredProducts
     );

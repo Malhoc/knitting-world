@@ -6,7 +6,7 @@ export default [
     {
         "id": 1,
         "name": "Knitted Sports Scraf",
-        "pictures": ["product/main/01.jpg", "product/main/02.jpg"],
+        "pictures": ["product/main/09.jpg", "product/main/10.jpg"],
         "stock": 32,
         "price": 3500,
         "discount": 1000,

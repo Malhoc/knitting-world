@@ -12,8 +12,7 @@ export default function Header() {
           options={[
             { value: "All", label: "All Categories" },
             { value: "Scarves", label: "Scarves" },
-            { value: "Gloves", label: "Gloves" },
-            
+            { value: "Gloves", label: "Gloves" },           
           ]}
         />
         <HeaderNavBar />

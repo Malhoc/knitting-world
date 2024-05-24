@@ -14,7 +14,7 @@ import CustomPagination from '../Components/pagination';
 function PGNS() {
   const firstBreadcrumb = { label: "Pages" };
   const secondBreadcrumb = {
-    label: "Shop Grid No Sidebar",
+    label: "All Products",
     active: true,
   };
   const [selectedOption, setSelectedOption] = useState("1");
@@ -26,13 +26,13 @@ function PGNS() {
     const option = parseInt(selectedOption);
     switch (option) {
       case 1: // Newest Item
-        return state.products.filteredProducts;
+        return state.products.allProducts;
       case 2: // High To Low
-        return state.products.filteredProducts.slice().sort((a, b) => b.price - a.price);
+        return state.products.allProducts.slice().sort((a, b) => b.price - a.price);
       case 3: // Low To High
-        return state.products.filteredProducts.slice().sort((a, b) => a.price - b.price);
+        return state.products.allProducts.slice().sort((a, b) => a.price - b.price);
       default:
-        return state.products.filteredProducts;
+        return state.products.allProducts;
     }
   });
 

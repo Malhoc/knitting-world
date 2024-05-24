@@ -274,17 +274,24 @@ export default function HeaderNavBar() {
                       </li>
                     </ul>
                   </div>
-                  {/* <div className="right-nav align-items-center d-flex justify-content-end">
-                    <Link className="login-btn btn-link ms-3" to="/login">
-                      <i className="las la-user-alt"></i>
+                  <div className="right-nav align-items-center d-flex justify-content-end">
+                  <div className="animated3">
+                  <div className="">
+                    <Link className="btn btn-primary btn-animated" to="/shop-grid-no-sidebar">
+                     Contact to Place Order
                     </Link>
-                    <Link
+                  </div>
+                  </div>
+                    {/* <Link className="login-btn btn-link ms-3" to="/login">
+                      <i className="las la-user-alt"></i>
+                    </Link> */}
+                    {/* <Link
                       className="wishlist-btn btn-link ms-3"
                       onClick={togglewWishList}
                     >
                       <i className="lar la-heart"></i>
-                    </Link>
-                    <Link
+                    </Link> */}
+                    {/* <Link
                       className="d-flex align-items-center ms-3 mx-1"
                       onClick={toggleCartList}
                     >
@@ -292,13 +299,13 @@ export default function HeaderNavBar() {
                         <i className="las la-shopping-cart"></i>
                       </span>
 
-                    </Link>
-                    <div>
+                    </Link> */}
+                    {/* <div>
                       <div className="ml-4 d-none d-md-block"> <small className="d-block text-muted">My Cart</small>
                         <span className="text-dark">{cartItems1.length} Items - ${calculateTotal()}</span>
                       </div>
-                    </div>
-                  </div> */}
+                    </div> */}
+                  </div>
                 </nav>
               </Col>
              
