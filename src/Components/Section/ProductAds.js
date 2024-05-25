@@ -16,7 +16,7 @@ const ProductAd = ({ imageSrc, title, subTitle, discount }) => {
           <h3>
             {subTitle}
             <br />
-            {discount && <span className="text-primary font-w-7">Off {discount}%</span>}
+            {/* {discount && <span className="text-primary font-w-7">Off {discount}%</span>} */}
           </h3>
           {/* Link */}
           <Link className="btn btn-sm btn-primary btn-animated" to="/shop-grid-no-sidebar">

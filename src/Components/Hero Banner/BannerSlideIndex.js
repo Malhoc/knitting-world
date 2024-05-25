@@ -23,7 +23,7 @@ const Banner = () => {
     // },
     {
       bgImg: "assets/images/bg/slider4.jpeg",
-      title: "A New Online Shop experience",
+      title: "Leading the Knitwear Evolution",
       subtitle: "Welcome Knitting World",
       button: "Shop Now",
     },
