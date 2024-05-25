@@ -11,7 +11,7 @@ export default function HeaderMiddle(props) {
           <div className="row align-items-center">
             <div className="col-md-6 d-none d-md-flex align-items-center">
               <Link className="navbar-brand logo d-none d-lg-block" to="/">
-                <img className="img-fluid" src="assets/images/logo.png" alt="" />
+                <img className="img-fluid" src="assets/images/knitting-world.png" alt="" />
               </Link>
               <div className="media ml-lg-11">
                 <i className="las la-mobile-alt ic-2x bg-white rounded p-2 shadow-sm mr-2 text-primary"></i>
