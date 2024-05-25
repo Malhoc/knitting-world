@@ -264,7 +264,7 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
                     <option disabled selected hidden>
                       Size
                     </option>
-                    {selectedProduct.size.map((size) => (
+                    {selectedProduct.size?.map((size) => (
                       <option key={size} value={size}>
                         {size}
                       </option>

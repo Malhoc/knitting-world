@@ -1,8 +1,33 @@
-import React from "react";
+import React, { useState } from 'react';
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { setFilteredProducts } from "../../store/reducer/productReducer";
 
 export default function HeaderMiddle(props) {
   const { options } = props;
+  const navigate = useNavigate();
+  const [searchKeyword, setSearchKeyword] = useState('');
+  const [categorySelected, setCategorySelected] = useState('All');
+  const products = useSelector((state) => state.products.allProducts);
+  
+  const dispatch = useDispatch();
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    var filteredProducts = [];
+    let regex = new RegExp(searchKeyword, 'gi');
+    switch (categorySelected) {
+      case 'All':
+        filteredProducts = products.filter((product) =>  product.name.match(regex));
+        break;
+      default:
+        filteredProducts = products.filter((product) =>  product.name.match(regex) && product.category === categorySelected);
+    }
+    dispatch(setFilteredProducts(filteredProducts));
+
+    navigate(`/shop-grid-no-sidebar`);
+  };
 
   return (
     <>
@@ -26,10 +51,10 @@ export default function HeaderMiddle(props) {
 
             <div className="col-md-6">
               <div className="right-nav align-items-center d-flex justify-content-end">
-                <form className="form-inline border rounded w-100">
-                  <select className="custom-select border-0 rounded-0 bg-light form-control d-none d-lg-inline">
+                <form className="form-inline border rounded w-100" onSubmit={handleSubmit} value={categorySelected}>
+                  <select className="custom-select border-0 rounded-0 bg-light form-control d-none d-lg-inline" onChange={(e) => setCategorySelected(e.target.value)}>
                     {options.map((option) => (
-                      <option key={option.value} value={option.value}>
+                      <option  key={option.value} value={option.value} >
                         {option.label}
                       </option>
                     ))}
@@ -37,6 +62,8 @@ export default function HeaderMiddle(props) {
                   <input
                     className="form-control border-0 border-left col"
                     type="search"
+                    value={searchKeyword}
+                    onChange={(e) => setSearchKeyword(e.target.value)}
                     placeholder="Enter Your Keyword"
                     aria-label="Search"
                   />

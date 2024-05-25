@@ -6,7 +6,7 @@ const productsSlice = createSlice({
   name: "products",
   initialState: {
     allProducts: products,
-    filteredProducts: [],
+    filteredProducts: products,
     selectedProduct: "",
     filters: { category: [], colors: "", size: "", prices: [0, 10000] },
     cart: [],
@@ -15,6 +15,9 @@ const productsSlice = createSlice({
   reducers: {
     setProducts(state, action) {
       state.allProducts = action.payload;
+      state.filteredProducts = action.payload;
+    },
+    setFilteredProducts(state, action) {
       state.filteredProducts = action.payload;
     },
     addToCart(state, action) {
@@ -179,6 +182,7 @@ export const {
   setSelectedProduct,
   addToWishList,
   removeWishListItem,
+  setFilteredProducts,
 } = productsSlice.actions;
 
 export default productsSlice.reducer;

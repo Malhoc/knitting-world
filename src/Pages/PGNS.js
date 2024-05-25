@@ -26,13 +26,13 @@ function PGNS() {
     const option = parseInt(selectedOption);
     switch (option) {
       case 1: // Newest Item
-        return state.products.allProducts;
+        return state.products.filteredProducts;
       case 2: // High To Low
-        return state.products.allProducts.slice().sort((a, b) => b.price - a.price);
+        return state.products.filteredProducts.slice().sort((a, b) => b.price - a.price);
       case 3: // Low To High
-        return state.products.allProducts.slice().sort((a, b) => a.price - b.price);
+        return state.products.filteredProducts.slice().sort((a, b) => a.price - b.price);
       default:
-        return state.products.allProducts;
+        return state.products.filteredProducts;
     }
   });
 
