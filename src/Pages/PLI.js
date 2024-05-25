@@ -190,7 +190,8 @@ function PLI() {
 
         dispatch(addToWishList(productToAdd));
     };
-    if (product === undefined ? (product = allProducts[0]) : product)
+
+    if (product === undefined ? (product = allProducts[id]) : product)
         return (
             <div className="page-wrapper">
                 <PageHeading
