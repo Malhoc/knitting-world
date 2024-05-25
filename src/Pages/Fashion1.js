@@ -73,7 +73,6 @@ export default function Index() {
         <CountDown />
         <NewCollection />
         <AboutSection/>
-
         {/* <Section /> */}
         <NewsletterSection />
         {/* <Countdown3 /> */}

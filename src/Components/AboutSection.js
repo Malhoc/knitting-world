@@ -20,12 +20,18 @@ const AboutSection = () => {
             New Arrival <span className="font-w-8">Modern Chair</span>
           </h1> */}
           <div>
-              <h6 className="text-primary mb-1">— About</h6>
-              <h2 className="mb-0">Knitting with Warmness</h2>
-            </div>
+            <h6 className="text-primary mb-1">— About</h6>
+            <h2 className="mb-0">Knitting with Warmness</h2>
+          </div>
           <p className="mb-4 animated3">
-            Our Product lights dominion divide years for fourth have don't stars
-            is that saying ights dominion divide years for fourth have
+            Welcome to <span className="text-primary">Knitting World</span>, the wholesale destination for
+            premium knitted scarves and gloves. With a dedication to excellence
+            and a passion for craftsmanship, we craft timeless accessories that
+            blend warmth, comfort, and style. From cozy scarves to durable
+            gloves, our extensive range caters to retailers and distributors
+            worldwide. Experience the difference of quality knitwear designed to
+            inspire at KnittinG World, where every stitch tells a story of
+            enduring style and unmatched craftsmanship.
           </p>
           <div className="animated3">
             <Link className="btn btn-primary btn-animated" to="/about-us">
