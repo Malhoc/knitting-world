@@ -17,6 +17,8 @@ import Countdown3 from "../Components/Countdown/CountDown3";
 import { Col, Container, Row } from 'reactstrap'
 import { Link } from "react-router-dom";
 import AboutSection from "../Components/AboutSection";
+import Process from "../Components/Process";
+import Influencer from "../Components/Influencer";
 export default function Index() {
   const feature = [
     {
@@ -70,11 +72,14 @@ export default function Index() {
         {/* <ProductIndex /> */}
         <CountDown />
         <NewCollection />
+        <AboutSection/>
+
         {/* <Section /> */}
         <NewsletterSection />
         {/* <Countdown3 /> */}
         <LogoSection logos={logos} />
-        <AboutSection/>
+        <Process/>
+        <Influencer/>
         <BlogSection blogs={filteredBlogs} title={"Fashion Blog"} />
         <ContactSec />
         <InstagramSection />

@@ -16,7 +16,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         // "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -30,9 +30,9 @@ export default [
         "salePrice": 2500,
         "description": "Adjustable and removable wide shoulder strap. Lined interior. Magnetic clasp closure.",
         "rating": 5,
-        "tags": ["Women"],
+        "tags": ["Scarves"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -46,9 +46,9 @@ export default [
         "salePrice": 2500,
         "description": "Adjustable and removable wide shoulder strap. Lined interior. Magnetic clasp closure.",
         "rating": 5,
-        "tags": ["Women"],
+        "tags": ["Scarves"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -62,9 +62,9 @@ export default [
         "salePrice": 2500,
         "description": "Adjustable and removable wide shoulder strap. Lined interior. Magnetic clasp closure.",
         "rating": 5,
-        "tags": ["Women"],
+        "tags": ["Scarves"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -80,7 +80,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -96,7 +96,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -112,7 +112,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -128,7 +128,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -144,7 +144,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -160,7 +160,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -176,7 +176,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -192,7 +192,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Scarves",
         "colors": ["Red"]
     },
     {
@@ -208,7 +208,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Gloves",
         "colors": ["Red"]
     },
     {
@@ -224,7 +224,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Gloves",
         "colors": ["Red"]
     },
     {
@@ -240,7 +240,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Gloves",
         "colors": ["Red"]
     },
     {
@@ -256,7 +256,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Gloves",
         "colors": ["Red"]
     },
     {
@@ -272,7 +272,7 @@ export default [
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],
-        "category": "Women",
+        "category": "Gloves",
         "colors": ["Red"]
     },
 ]

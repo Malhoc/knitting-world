@@ -1,8 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from "reactstrap";
+// import ContactForm from '../../Pages/contact/ContactForm';
 import ContactForm from '../../Pages/contact/ContactForm';
 
 const ContactSec = () => {
+  
   return (
     <section className="bg-light">
     <Container>

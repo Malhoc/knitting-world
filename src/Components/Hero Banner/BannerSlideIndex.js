@@ -15,8 +15,14 @@ const Banner = () => {
 
   const slides = [
     
+    // {
+    //   bgImg: "assets/images/bg/a.jpeg",
+    //   title: "A New Online Shop experience",
+    //   subtitle: "Welcome Knitting World",
+    //   button: "Shop Now",
+    // },
     {
-      bgImg: "assets/images/bg/a.jpeg",
+      bgImg: "assets/images/bg/slider4.jpeg",
       title: "A New Online Shop experience",
       subtitle: "Welcome Knitting World",
       button: "Shop Now",

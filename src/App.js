@@ -39,6 +39,7 @@ import ProductCart from "./Pages/ProductCart";
 import SignUp from "./Pages/SignUp";
 import TAndC from "./Pages/tAndC";
 import ContatctUs from "./Pages/contact/ContatctUs";
+import MyForm from "./Components/MyForm.js";
 
 function App() {
   const location = useLocation();
@@ -180,6 +181,7 @@ function App() {
           <Route path="/blog-listing-2" element={<BlogsList2 />} />
           <Route path="/blog-single" element={<BlogSingle />} />
           <Route path="/contact-us" element={<ContatctUs />} />
+          <Route path="/form" element={<MyForm />} />
 
         </Routes>
         <Footer />

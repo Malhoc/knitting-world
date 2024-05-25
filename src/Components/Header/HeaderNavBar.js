@@ -229,7 +229,7 @@ export default function HeaderNavBar() {
               <Col>
                 <nav className="navbar navbar-expand-lg navbar-light position-static ">
                   <Link className="navbar-brand logo d-lg-none" to="/">
-                    <img className="img-fluid" src="assets/images/logo.png" alt="" />
+                    <img className="img-fluid" src="assets/images/knitting-world.png" alt="" />
                   </Link>
                   <button
                     className="navbar-toggler"
@@ -243,13 +243,13 @@ export default function HeaderNavBar() {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                      <DropdownMenuNavBar title={"Home"} links={homeLinks} />
+                      {/* <DropdownMenuNavBar title={"Home"} links={homeLinks} /> */}
                       {/* <CatalogDropDown
                         title={"Catalog"}
                         catagoryLinks={catagoryLinks}
                       /> */}
                       {/* <ShopDropdown title={"shop"} shopLinks={shopLinks} /> */}
-                      <DropdownMenuNavBar title={"Pages"} links={pagesLinks} />
+                      {/* <DropdownMenuNavBar title={"Pages"} links={pagesLinks} /> */}
                       {/* <DropdownMenuNavBar title={"Blog"} links={blogLinks} /> */}
 
                       <li className="nav-item">
@@ -272,12 +272,17 @@ export default function HeaderNavBar() {
                           About
                         </Link>
                       </li>
+                      <li className="nav-item">
+                        <Link to="/faq" className="nav-link">
+                          FAQs
+                        </Link>
+                      </li>
                     </ul>
                   </div>
                   <div className="right-nav align-items-center d-flex justify-content-end">
                   <div className="animated3">
                   <div className="">
-                    <Link className="btn btn-primary btn-animated" to="/shop-grid-no-sidebar">
+                    <Link className="btn btn-primary btn-animated d-none d-lg-block" to="/contact-us">
                      Contact to Place Order
                     </Link>
                   </div>
