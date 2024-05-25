@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Col, Form, FormGroup, Label, Input, Button } from "reactstrap";
-
+import { useForm, ValidationError } from "@formspree/react";
 const ContactForm = () => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
@@ -9,13 +9,56 @@ const ContactForm = () => {
   const [topic, setTopic] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-  };
+  // const handleSubmit = async() => {
+
+  //   try {
+
+  //     console.log('Im clickedmmm');
+  //   } catch (error) {
+  //     console.error("Error submitting form:", error);
+  //   }
+  // };
+  const [state, handleSubmit] = useForm("xvoenvqo");
+    if (state.succeeded) {
+      console.log('Thanks for joining!');
+    }
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+    
+  // };
+
+  // const handleSubmit = (values, { setSubmitting }) => {
+  //   console.log("Im Clicked");
+  //   const formSpreeUrl = "https://formspree.io/f/xvoenvqo";
+  //   // Trigger form submission
+  //   fetch(formSpreeUrl, {
+  //     method: "POST",
+  //     body: JSON.stringify(values),
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   })
+  //     .then((response) => {
+  //       if (response.ok) {
+  //         console.log("Form submitted successfully");
+  //         // setShowToast(true);
+  //         // You can handle success here
+  //       } else {
+  //         console.error("Failed to submit form");
+  //         // You can handle failure here
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error submitting form:", error);
+  //     })
+  //     .finally(() => {
+  //       setSubmitting(false);
+  //     });
+  // };
 
   return (
     <div className="bg-white shadow p-5 rounded-4">
-      <Form id="contact-form" className="row" onSubmit={handleSubmit}>
+      <Form className="row" onSubmit={handleSubmit}>
         <div className="messages"></div>
         <FormGroup className="col-md-6">
           <Label className="font-w-6">First Name</Label>

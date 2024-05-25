@@ -28,7 +28,12 @@ export default function HeaderMiddle(props) {
 
     navigate(`/shop-grid-no-sidebar`);
   };
-
+  const makeCall = () => {
+    console.log('Making Call');
+    const phoneNumber = 'tel:03224188002'; 
+    // Open the default phone app with the specified number
+    window.open(phoneNumber, '_blank');
+  };
   return (
     <>
       <div className="py-md-3 py-2">
@@ -42,7 +47,7 @@ export default function HeaderMiddle(props) {
                 <i className="las la-mobile-alt ic-2x bg-white rounded p-2 shadow-sm mr-2 text-primary"></i>
                 <div className="media-body">
                   <span className="mb-0 d-block">Call Us</span>
-                  <Link className="text-muted" to="tel:+912345678900">
+                  <Link className="text-muted" to={makeCall} onClick={makeCall}>
                     +44-0208-1276-480                    
                   </Link>
                 </div>
