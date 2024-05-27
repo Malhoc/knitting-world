@@ -1,6 +1,7 @@
 import React from "react";
 import PageHeading from "../../Components/PageHeading/PageHeading";
 import { Link } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 function ContatctUs() {
   const firstBreadcrumb = { label: "Pages", link: "/contact-us" };
@@ -19,12 +20,13 @@ function ContatctUs() {
       <section>
         <div className="container">
           <div className="row mb-5">
-            <div className="col-lg-8">
+            <div className="col-lg-8 border">
               <div className="mb-5">
                 <h6 className="text-primary mb-1">— Contact US</h6>
                 <h2 className="mb-0">We’d love to hear from you.</h2>
               </div>
-              <form id="contact-form" className="row" method="post" action="php/contact.php">
+              <ContactForm/>
+              {/* <form id="contact-form" className="row" method="post" action="php/contact.php">
                 <div className="messages"></div>
                 <div className="form-group col-md-6">
                   <label>First Name <span className="text-danger">*</span></label>
@@ -54,7 +56,7 @@ function ContatctUs() {
                 <div className="col-md-12 mt-4">
                   <button className="btn btn-primary btn-animated"><span>Send Messages</span></button>
                 </div>
-              </form>
+              </form> */}
             </div>
             <div className="col-lg-4 mt-6 mt-lg-0">
               <div className="shadow-sm rounded p-5">
@@ -68,7 +70,7 @@ function ContatctUs() {
                   </div>
                   <div>
                     <h6 className="mb-1 text-dark">Store address</h6>
-                    <p className="mb-0 text-muted">423B, Road Wordwide Country, USA</p>
+                    <p className="mb-0 text-muted">Unit 26, Etloe Road Leyton Business Centre E10 7BT, London</p>
                   </div>
                 </div>
                 <div className="d-flex mb-3">
@@ -77,7 +79,7 @@ function ContatctUs() {
                   </div>
                   <div>
                     <h6 className="mb-1 text-dark">Email Us</h6>
-                    <Link className="text-muted" href="mailto:themeht23@gmail.com"> themeht23@gmail.com</Link>
+                    <Link className="text-muted"> info@knittingworld.co.uk</Link>
                   </div>
                 </div>
                 <div className="d-flex mb-3">
@@ -86,7 +88,7 @@ function ContatctUs() {
                   </div>
                   <div>
                     <h6 className="mb-1 text-dark">Phone Number</h6>
-                    <Link className="text-muted" href="tel:+912345678900">+91-234-567-8900</Link>
+                    <Link className="text-muted" href="tel:+912345678900">+44-0208-1276-480</Link>
                   </div>
                 </div>
                 <div className="d-flex mb-5">
@@ -95,7 +97,7 @@ function ContatctUs() {
                   </div>
                   <div>
                     <h6 className="mb-1 text-dark">Working Hours</h6>
-                    <span className="text-muted">Mon - Fri: 10AM - 7PM</span>
+                    <span className="text-muted">Mon - Fri: 8AM - 6PM</span>
                   </div>
                 </div>
                 <ul className="list-inline">

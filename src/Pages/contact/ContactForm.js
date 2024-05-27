@@ -27,35 +27,6 @@ const ContactForm = () => {
     
   // };
 
-  // const handleSubmit = (values, { setSubmitting }) => {
-  //   console.log("Im Clicked");
-  //   const formSpreeUrl = "https://formspree.io/f/xvoenvqo";
-  //   // Trigger form submission
-  //   fetch(formSpreeUrl, {
-  //     method: "POST",
-  //     body: JSON.stringify(values),
-  //     headers: {
-  //       "Content-Type": "application/json",
-  //     },
-  //   })
-  //     .then((response) => {
-  //       if (response.ok) {
-  //         console.log("Form submitted successfully");
-  //         // setShowToast(true);
-  //         // You can handle success here
-  //       } else {
-  //         console.error("Failed to submit form");
-  //         // You can handle failure here
-  //       }
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error submitting form:", error);
-  //     })
-  //     .finally(() => {
-  //       setSubmitting(false);
-  //     });
-  // };
-
   return (
     <div className="bg-white shadow p-5 rounded-4">
       <Form className="row" onSubmit={handleSubmit}>
