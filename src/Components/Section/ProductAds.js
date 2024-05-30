@@ -39,11 +39,11 @@ const ProductAds = () => {
             subTitle="#Trendy Arrived Item"
             discount={50}
           />
-          <ProductAd
+          {/* <ProductAd
             imageSrc="assets/images/product-ad/Gloves_thumbnail_cat.jpg"
             title="2020 Collection"
             subTitle="New Stylish Trendy Gloves"
-          />
+          /> */}
         </Row>
       </Container>
     </section>

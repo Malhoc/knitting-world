@@ -40,6 +40,8 @@ import SignUp from "./Pages/SignUp";
 import TAndC from "./Pages/tAndC";
 import ContatctUs from "./Pages/contact/ContatctUs";
 import MyForm from "./Components/MyForm.js";
+import FeatureIndex2 from "./Components/Feature/FeatureIndex2.js";
+import FeatureIndex from "./Components/Feature/FeatureIndex.js";
 
 function App() {
   const location = useLocation();

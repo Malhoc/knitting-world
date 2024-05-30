@@ -113,7 +113,7 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
         </Link>
         <div className="card-info">
           <div className="card-body">
-            <div className="product-title">
+            <div className="product-title border">
               <Link
                 to="/product-left-image"
                 onClick={() => {
@@ -146,7 +146,7 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
               >
                 <i className="lar la-heart"></i>
               </button> */}
-              <button
+              {/* <button
                 className="btn-cart btn btn-primary btn-animated mx-3"
                 type="button"
                 onClick={() => {
@@ -154,7 +154,7 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
                 }}
               >
                 <i className="las la-shopping-cart mr-1"></i>
-              </button>
+              </button> */}
               <button
                 className="btn btn-view"
                 // data-toggle="tooltip"
@@ -175,7 +175,6 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
       </div>
 
       {selectedProduct && <Modal className="" style={{ maxWidth: '50%' }} isOpen={modalOpen} toggle={toggleModal}>
-
         <div>
           <Row>
             <Col xs={11} className="align-items-center">

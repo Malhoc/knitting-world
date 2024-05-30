@@ -18,11 +18,12 @@ function ProductIndex() {
               </div>
             </div>
           </div>
+          
           <div className="row">
 
             {trendingproducts.map((product) => (
 
-              <div className="col-xl-3 col-lg-4 col-md-6" key={product.id}>
+              <div className=" col-xl-3 col-lg-4 col-md-6 xl:ml-5 xl:mr-5" key={product.id}>
                 <ProductCard
                   id={product.id}
                   imgBackSrc={`assets/images/${product.pictures[0]}`}

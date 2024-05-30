@@ -244,9 +244,9 @@ Tab
 .bg-pos-b { background-position: bottom; }
 
 
-.owl-carousel .product-card { margin: 15px; }
+.owl-carousel .product-card { margin: 15px; } 
 .owl-carousel .product-card:hover { box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important; }
-.product-card { border: none; padding-bottom: 20px; overflow: hidden; margin-bottom: 40px}
+.product-card { border: none; padding-bottom: 20px; overflow: hidden; margin-bottom: 40px;}
 .product-card:hover { box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; }
 .product-card .btn-wishlist { position: absolute; top: .75rem; right: .75rem; z-index: 5; width: 2rem; height: 2rem; line-height: 2rem; padding: 0 !important; border: 0; border-radius: 50%; background-color: #ffffff; color: #fe4c1c; text-align: center; box-shadow: 0 10px 55px 5px rgba(137, 173, 255, .15) !important; }
 .product-card .btn-wishlist i { animation: heartBeat 1.3s infinite running; }

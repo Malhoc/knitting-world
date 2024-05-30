@@ -243,7 +243,7 @@ export default function HeaderNavBar() {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                      {/* <DropdownMenuNavBar title={"Home"} links={homeLinks} /> */}
+                      <DropdownMenuNavBar title={"Home"} links={homeLinks} />
                       {/* <CatalogDropDown
                         title={"Catalog"}
                         catagoryLinks={catagoryLinks}

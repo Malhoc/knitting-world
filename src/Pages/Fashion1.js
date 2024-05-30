@@ -19,6 +19,8 @@ import { Link } from "react-router-dom";
 import AboutSection from "../Components/AboutSection";
 import Process from "../Components/Process";
 import Influencer from "../Components/Influencer";
+import FeatureIndex2 from "../Components/Feature/FeatureIndex2";
+import FeatureSection from "../Components/Feature/FeatureElectronic";
 export default function Index() {
   const feature = [
     {
@@ -65,23 +67,25 @@ export default function Index() {
     <div className="page-wrapper">
       <BannerSliderIndex />
       <div className="page-content">
-        <FeatureIndex feature={feature} />
         <div className="mt-5">
-        <ProductAds/>
-        </div>
-        {/* <ProductIndex /> */}
-        <CountDown />
-        <NewCollection />
+        <ProductIndex />
         <AboutSection/>
-        {/* <Section /> */}
-        <NewsletterSection />
-        {/* <Countdown3 /> */}
-        <LogoSection logos={logos} />
         <Process/>
         <Influencer/>
-        <BlogSection blogs={filteredBlogs} title={"Fashion Blog"} />
         <ContactSec />
+        {/* <FeatureIndex feature={feature} /> */}
+        <FeatureSection />
         <InstagramSection />
+        </div>
+        {/* <ProductAds/> */}
+        {/* <CountDown /> */}
+        {/* <NewCollection /> */}
+        {/* <Section /> */}
+        {/* <NewsletterSection /> */}
+        {/* <Countdown3 /> */}
+        {/* <LogoSection logos={logos} /> */}
+        {/* <BlogSection blogs={filteredBlogs} title={"Fashion Blog"} /> */}
+        
       </div>
     </div>
   );
