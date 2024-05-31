@@ -27,19 +27,19 @@ const Banner = () => {
       subtitle: "Welcome Knitting World",
       button: "Shop Now",
     },
-    {
-      bgImg: "assets/images/bg/banner-6.jpg",
-      title: "A New Online Shop experience",
-      subtitle: "Welcome Knitting World",
-      button: "View Collection",
-    },
-   
     // {
-    //   bgImg: "assets/images/bg/banner-4.jpg",
-    //   title: "Trending Scarves Collection",
-    //   subtitle: "2024 Latest Style",
+    //   bgImg: "assets/images/bg/banner-6.jpg",
+    //   title: "A New Online Shop experience",
+    //   subtitle: "Welcome Knitting World",
     //   button: "View Collection",
     // },
+   
+    {
+      bgImg: "assets/images/bg/banner-4.jpg",
+      title: "Football Scarves Collection",
+      subtitle: "2024 Latest Style",
+      button: "View Collection",
+    },
   ];
 
   return (

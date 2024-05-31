@@ -21,6 +21,8 @@ import Process from "../Components/Process";
 import Influencer from "../Components/Influencer";
 import FeatureIndex2 from "../Components/Feature/FeatureIndex2";
 import FeatureSection from "../Components/Feature/FeatureElectronic";
+import FootballScarvesSec from "../Components/FootballScarvesSec";
+import CustomScarvesContent from "../Components/CustomScarvesContent";
 export default function Index() {
   const feature = [
     {
@@ -68,10 +70,12 @@ export default function Index() {
       <BannerSliderIndex />
       <div className="page-content">
         <div className="mt-5">
+        <FootballScarvesSec/>
         <ProductIndex />
         <AboutSection/>
         <Process/>
         <Influencer/>
+        <CustomScarvesContent/>
         <ContactSec />
         {/* <FeatureIndex feature={feature} /> */}
         <FeatureSection />

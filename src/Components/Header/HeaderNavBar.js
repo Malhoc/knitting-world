@@ -243,7 +243,7 @@ export default function HeaderNavBar() {
                   </button>
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                      <DropdownMenuNavBar title={"Home"} links={homeLinks} />
+                      {/* <DropdownMenuNavBar title={"Home"} links={homeLinks} /> */}
                       {/* <CatalogDropDown
                         title={"Catalog"}
                         catagoryLinks={catagoryLinks}
@@ -259,7 +259,7 @@ export default function HeaderNavBar() {
                       </li>
                       <li className="nav-item">
                         <Link to="/shop-grid-no-sidebar" className="nav-link">
-                          Shop
+                          Football Scarves
                         </Link>
                       </li>
                       <li className="nav-item">
