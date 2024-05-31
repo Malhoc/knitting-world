@@ -66,7 +66,7 @@ function AboutUs() {
                             <Col lg="7" mb="6" mbLg="0">
                                 <Row className="align-items-center">
                                     <Col md="6">
-                                        <img src="assets/images/about/01.jpg" className="img-fluid rounded shadow" alt="..." />
+                                        <img src="assets/images/about/01.png" className="img-fluid rounded shadow" alt="..." />
                                     </Col>
                                     <Col md="6">
                                         <img src="assets/images/about/02.jpg" className="img-fluid rounded shadow mb-5" alt="..." />
