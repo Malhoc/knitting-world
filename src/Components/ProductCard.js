@@ -94,7 +94,7 @@ function ProductCard({ id, imgBackSrc, imgFrontSrc, title, price, actualPrice, r
 
   return (
     <>
-      <div className="card product-card border">
+      <div className="card product-card ">
         <Link className="card-img-hover d-block" to="/product-left-image" onClick={() => {
           dispatch(setSelectedProduct(id));
         }}>

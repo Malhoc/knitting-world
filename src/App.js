@@ -42,6 +42,7 @@ import ContatctUs from "./Pages/contact/ContatctUs";
 import MyForm from "./Components/MyForm.js";
 import FeatureIndex2 from "./Components/Feature/FeatureIndex2.js";
 import FeatureIndex from "./Components/Feature/FeatureIndex.js";
+import FootballScarves from "./Pages/FootballScarves.js";
 
 function App() {
   const location = useLocation();
@@ -184,6 +185,7 @@ function App() {
           <Route path="/blog-single" element={<BlogSingle />} />
           <Route path="/contact-us" element={<ContatctUs />} />
           <Route path="/form" element={<MyForm />} />
+          <Route path="/scarves" element={<FootballScarves />} />
 
         </Routes>
         <Footer />
