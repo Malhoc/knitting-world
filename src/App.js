@@ -185,7 +185,7 @@ function App() {
           <Route path="/blog-single" element={<BlogSingle />} />
           <Route path="/contact-us" element={<ContatctUs />} />
           <Route path="/form" element={<MyForm />} />
-          <Route path="/scarves" element={<FootballScarves />} />
+          <Route path="/football-scarves" element={<FootballScarves />} />
 
         </Routes>
         <Footer />

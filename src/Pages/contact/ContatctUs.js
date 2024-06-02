@@ -20,7 +20,7 @@ function ContatctUs() {
       <section>
         <div className="container">
           <div className="row mb-5">
-            <div className="col-lg-8 border">
+            <div className="col-lg-8">
               <div className="mb-5">
                 <h6 className="text-primary mb-1">— Contact US</h6>
                 <h2 className="mb-0">We’d love to hear from you.</h2>

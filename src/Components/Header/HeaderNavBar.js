@@ -258,7 +258,7 @@ export default function HeaderNavBar() {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/shop-grid-no-sidebar" className="nav-link">
+                        <Link to="/football-scarves" className="nav-link">
                           Football Scarves
                         </Link>
                       </li>

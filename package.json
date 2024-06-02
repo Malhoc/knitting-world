@@ -28,6 +28,8 @@
     "reactstrap": "^9.1.10",
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
