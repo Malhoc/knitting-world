@@ -15,24 +15,24 @@ const Banner = () => {
 
   const slides = [
     
-    // {
-    //   bgImg: "assets/images/bg/a.jpeg",
-    //   title: "A New Online Shop experience",
-    //   subtitle: "Welcome Knitting World",
-    //   button: "Shop Now",
-    // },
+    {
+      bgImg: "assets/images/bg/knitting-world-banner.jpg",
+      title: "A New Online Shop experience",
+      subtitle: "Welcome Knitting World",
+      button: "Shop Now",
+    },
+    {
+      bgImg: "assets/images/product-ad/01.jpg",
+      title: "A New Online Shop experience",
+      subtitle: "Welcome Knitting World",
+      button: "Shop Now",
+    },
     {
       bgImg: "assets/images/bg/slider4.jpeg",
       title: "Leading the Knitwear Evolution",
       subtitle: "Welcome Knitting World",
       button: "Shop Now",
     },
-    // {
-    //   bgImg: "assets/images/bg/banner-6.jpg",
-    //   title: "A New Online Shop experience",
-    //   subtitle: "Welcome Knitting World",
-    //   button: "View Collection",
-    // },
    
     {
       bgImg: "assets/images/bg/banner-4.jpg",

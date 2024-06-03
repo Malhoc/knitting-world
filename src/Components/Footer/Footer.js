@@ -166,7 +166,7 @@ export default function Footer() {
                   <i className="las la-map ic-2x text-primary"></i>
                 </div>
                 <div>
-                  <h6 className="mb-1 text-light">Store address</h6>
+                  <h6 className="mb-1 text-light">Address</h6>
                   <p className="mb-0 text-muted">
                     Unit 26, Etloe Road Leyton Business Centre E10 7BT, London
                   </p>

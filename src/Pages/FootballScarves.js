@@ -12,6 +12,8 @@ import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import PGNS from "./PGNS";
+import ProductListing from "./ProductListing";
 
 function FootballScarves() {
   const settings = {
@@ -179,7 +181,7 @@ function FootballScarves() {
                 </div>
               </Col>
             </div>
-            <ProductIndex />
+            <ProductListing />
           </Container>
         </section>
       </div>

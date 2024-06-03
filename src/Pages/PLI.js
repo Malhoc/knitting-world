@@ -223,20 +223,10 @@ function PLI() {
                     <div className="product-details">
                       <h3 className="mb-0">{product.name}</h3>
                       <ul className="list-unstyled">
-                        <li>Art no: 1000-0083</li>
+                        <li>Art no: {product.artNo}</li>
                       </ul>
                       <p style={{ fontSize: "13px" }}>
-                        Ready to show off your team spirit with a touch of
-                        humor? Look no further than our comic football scarf,
-                        where you can let your creativity run wild with our
-                        easy-to-use online design tool. Whether you want to
-                        incorporate your favorite player's face, a witty pun, or
-                        your team's logo, our custom scarf will keep you warm
-                        and stylish while turning heads in the stands. So why
-                        settle for a boring, store-bought scarf when you can
-                        create a one-of-a-kind accessory that truly captures
-                        your unique sense of humor? Start designing now and
-                        score big with our custom comic football scarf!
+                        {product.description}
                       </p>
                       <ul
                         className="ml-3"
@@ -410,10 +400,10 @@ function PLI() {
                           toggle("2");
                         }}
                       >
-                        Additional Information
+                        Worldwide Delivery
                       </NavLink>
                     </NavItem>
-                    <NavItem>
+                    {/* <NavItem>
                       <NavLink
                         className={
                           activeTab === "3" ? "active text-dark" : "text-dark"
@@ -424,31 +414,94 @@ function PLI() {
                       >
                         Reviews (3)
                       </NavLink>
-                    </NavItem>
+                    </NavItem> */}
                   </Nav>
                   <TabContent activeTab={activeTab} className="pt-5">
                     <TabPane tabId="1">
+                    <h5 className="mb-3">Football Scarf Specs</h5>
+                    <Row className="">
+                      <Col lg='10' md='10' sm='12'>
+                      <ul
+                    className="ml-3"
+                    style={{
+                          color: "#8090b5",
+                          fontFamily: "Inter, sans-serif",
+                          fontSize: "13px",
+                          lineHeight: "1.6",
+                          fontWeight: "normal",
+                        }}
+                  >
+                    <li>
+                      Football scarf with your fully customized design knitted
+                      in
+                    </li>
+                    <li>Single pieces, NO minimum order quantity (MOQ)</li>
+                    <li style={{fontWeight:'bold'}}>
+                      WORLDWIDE DELIVERY, express shipping options available
+                    </li>
+                    <li>
+                      Material: 100% soft acrylic yarn. Up to 5 colors per
+                      scarf, pick from palette with 26 colors.{" "}
+                    </li>
+                    <li>
+                      Choose standard size, kids or maxi scarf. Fringes are ca.
+                      7cm on each end, so standard size including fringes is
+                      about 160cm{" "}
+                    </li>
+                    <li>
+                      Fringes / tassles made from ALL colors used in the scarf.
+                      Sorry no uni color fringes possible{" "}
+                    </li>
+                    <li>
+                      Double knit, different design for frontside / backside at
+                      no extra cost{" "}
+                    </li>
+                    <li>
+                      Depending on actual design and number of colors, size of
+                      the ready scarf may vary. Use 3 or 4 colors for best
+                      results. 5 color scarves usually come out wider and
+                      heavier, design may be stretched. Round logos in the
+                      design may not be perfectly round in the scarf.{" "}
+                    </li>
+                    <li>
+                      Please check the COLOR NAMES given in the top bar of the
+                      Online Designer, so you choose the color you want. Don't
+                      confuse navy/black, dark brown/black and
+                      (neon)orange/light red, they are all close together.{" "}
+                    </li>
+                    <li>
+                      Please note color values may be different in the Online
+                      Designer, product preview and actual product. Click the
+                      color palette below for more details.{" "}
+                    </li>
+                    <img
+                      class="img-responsive"
+                      src="https://www.wildemasche.com/out/dd_roxive/oxbaseshop/en/img/farben-acryl.png"
+                      title="Farben Acryl"
+                      alt="Farben Acryl"
+                    />
+                  </ul>
+                      </Col>
+                    </Row>
                       <div className="row align-items-center">
-                        <div className="col-md-5">
-                          <img
-                            className="img-fluid w-100"
-                            src={`assets/images/${product.pictures[0]}`}
-                            alt=""
-                          />
-                        </div>
-                        <div className="col-md-7 mt-5 mt-lg-0">
-                          <h3 className="mb-3">{product.name}</h3>
-                          <p>{product.description}</p>
-                          <Link className="btn btn-primary btn-animated" to="#">
-                            <i className="las la-long-arrow-alt-right mr-1"></i>
-                            Read More
-                          </Link>
-                        </div>
                       </div>{" "}
                     </TabPane>
                     <TabPane tabId="2">
-                      <h5 className="mb-3">Additional information</h5>
-                      <Table bordered className="mb-0">
+                      <h5 className="mb-3">SHIPPING & PRODUCTION DETAILS</h5>
+                      <Row className="">
+                      <Col lg='10' md='10' sm='12'>
+                     <div style={{
+                          color: "#8090b5",
+                          fontFamily: "Inter, sans-serif",
+                          fontSize: "15px",
+                          lineHeight: "1.6",
+                          fontWeight: "normal",
+                        }}>
+                     Worldwide delivery - various delivery options available, depending on country of delivery, product type and order quantity.
+                     </div>
+                      </Col>
+                    </Row>
+                      {/* <Table bordered className="mb-0">
                         <tbody>
                           <tr>
                             <td>Size</td>
@@ -479,9 +532,9 @@ function PLI() {
                             <td>6 Months</td>
                           </tr>
                         </tbody>
-                      </Table>
+                      </Table> */}
                     </TabPane>
-                    <TabPane tabId="3">
+                    {/* <TabPane tabId="3">
                       <Row className="total-rating align-items-center">
                         <Col md="6">
                           <div className="bg-dark shadow-sm rounded text-center p-5">
@@ -548,7 +601,7 @@ function PLI() {
                               />
                             </FormGroup>
                             <FormGroup className="col-12 clearfix">
-                              {/* <Label for="ratingSelect">Rating</Label> */}
+                             
                               <Input
                                 type="select"
                                 name="rating"
@@ -607,7 +660,7 @@ function PLI() {
                           </Form>
                         </div>
                       </Row>
-                    </TabPane>
+                    </TabPane> */}
                   </TabContent>
                 </Col>
               </Row>

@@ -78,10 +78,10 @@ export default function Index() {
         <CustomScarvesContent/>
         <ContactSec />
         {/* <FeatureIndex feature={feature} /> */}
-        <FeatureSection />
+        {/* <FeatureSection /> */}
         <InstagramSection />
         </div>
-        {/* <ProductAds/> */}
+        <ProductAds/>
         {/* <CountDown /> */}
         {/* <NewCollection /> */}
         {/* <Section /> */}
