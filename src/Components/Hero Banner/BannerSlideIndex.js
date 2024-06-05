@@ -14,32 +14,34 @@ const Banner = () => {
   };
 
   const slides = [
-    
-    {
-      bgImg: "assets/images/bg/knitting-world-banner.jpg",
-      title: "A New Online Shop experience",
-      subtitle: "Welcome Knitting World",
-      button: "Shop Now",
-    },
     {
       bgImg: "assets/images/product-ad/01.jpg",
-      title: "A New Online Shop experience",
+      // title: "A New Online Shop experience",
+      specs: ["No Miniums", "Custom Design", "Made in UK"],
       subtitle: "Welcome Knitting World",
       button: "Shop Now",
     },
+    {
+      bgImg: "assets/images/bg/knitting-world-banner.jpg",
+      specs: ["No Miniums", "Custom Design", "Made in UK"],
+      // title: "A New Online Shop experience",
+      subtitle: "Welcome Knitting World",
+      button: "Shop Now",
+    },
+
     {
       bgImg: "assets/images/bg/slider4.jpeg",
       title: "Leading the Knitwear Evolution",
       subtitle: "Welcome Knitting World",
       button: "Shop Now",
     },
-   
-    {
-      bgImg: "assets/images/bg/banner-4.jpg",
-      title: "Football Scarves Collection",
-      subtitle: "2024 Latest Style",
-      button: "View Collection",
-    },
+
+    // {
+    //   bgImg: "assets/images/bg/banner-4.jpg",
+    //   title: "Football Scarves Collection",
+    //   subtitle: "2024 Latest Style",
+    //   button: "View Collection",
+    // },
   ];
 
   return (
@@ -47,8 +49,10 @@ const Banner = () => {
       <OwlCarousel
         className="banner-slider owl-carousel no-pb owl-2"
         {...options}
-        navText={["<span class='las la-arrow-left'><span></span></span>","<span class='las la-arrow-right'><span></span></span>"]}
-
+        navText={[
+          "<span class='las la-arrow-left'><span></span></span>",
+          "<span class='las la-arrow-right'><span></span></span>",
+        ]}
       >
         {slides.map((slide, index) => (
           <div
@@ -62,9 +66,39 @@ const Banner = () => {
                   <h6 className="font-w-6 text-primary animated3">
                     {slide.subtitle}
                   </h6>
-                  <h1 className="mb-4 animated3">{slide.title}</h1>
+                  {slide.specs ? (
+                    <h4 className="mb-4 animated3">
+                      <ul
+                        className="ml-5 animated3"
+                        style={{ color: "#007bff" }}
+                      >
+                        <li>No Miniums</li>
+                        <li>Custom Design</li>
+                        <li>Made in UK</li>
+                      </ul>
+                    </h4>
+                  ) : (
+                    <h1 className="mb-4 animated3">{slide.title}</h1>
+                  )}
+                  {/* <h4 className="mb-4 animated3">
+                  <ul className="ml-5 animated3" style={{color:'#007bff'}}>
+                  <li>
+                    No Miniums
+                  </li>
+                  <li>
+                   Custom Design
+                  </li>
+                  <li>
+                   Made in UK
+                  </li>
+                 </ul>
+                  </h4> */}
+
                   <div className="animated3">
-                    <Link className="btn btn-primary btn-animated" to="/shop-grid-no-sidebar">
+                    <Link
+                      className="btn btn-primary btn-animated"
+                      to="/shop-grid-no-sidebar"
+                    >
                       {slide.button}
                     </Link>
                   </div>

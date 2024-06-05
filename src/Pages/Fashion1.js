@@ -23,6 +23,7 @@ import FeatureIndex2 from "../Components/Feature/FeatureIndex2";
 import FeatureSection from "../Components/Feature/FeatureElectronic";
 import FootballScarvesSec from "../Components/FootballScarvesSec";
 import CustomScarvesContent from "../Components/CustomScarvesContent";
+import KnitwearSec from "../Components/Section/KnitwearSec";
 export default function Index() {
   const feature = [
     {
@@ -70,6 +71,7 @@ export default function Index() {
       <BannerSliderIndex />
       <div className="page-content">
         <div className="mt-5">
+        <KnitwearSec/>
         <FootballScarvesSec/>
         <ProductIndex />
         <AboutSection/>
@@ -81,7 +83,7 @@ export default function Index() {
         {/* <FeatureSection /> */}
         <InstagramSection />
         </div>
-        <ProductAds/>
+        {/* <ProductAds/> */}
         {/* <CountDown /> */}
         {/* <NewCollection /> */}
         {/* <Section /> */}

@@ -11,36 +11,68 @@ function tAndC() {
     };
     const data = [
         {
-            title: "Description of Service",
+            title: "Validate",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, distinctio iste praesentium totam quasi tempore, magnam ipsum cum animi at fuga alias harum quo quibusdam odit eum reprehenderit consectetur suscipit!",
+                "hese terms and conditions are valid for all customers of Wildemasche GmbH & CO KG (called Wildemasche in the following) outside of Germany and their orders placed at Wildemasche.com. These terms apply in preference to and supersede any terms and conditions preferred to offered or relied on by the buyer whether in negotiation or at any stage in the dealings between the seller and buyer with reference to the goods to which this contract relates. Without prejudice to the generality of the foregoing, the seller will not be bound by any of its documents or printed terms furnished by the buyer in any of its documents unless the buyer specifically states in writing separately from such terms that it intends such terms to apply and the seller acknowledges such notification in writing. Neither the buyer nor the seller shall be bound by any variation, waiver of, or addition to these conditions except as agreed by both parties in writing and signed on their behalf.",
         },
         {
-            title: "Your Registration Obligations",
+            title: "Price",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nesciunt officia culpa nostrum maxime vero architecto, corporis placeat repudiandae minima facere animi, pariatur fugit dignissimos qui error est nulla. Doloribus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nesciunt officia culpa nostrum maxime vero architecto, corporis placeat repudiandae minima facere animi, pariatur fugit dignissimos qui error est nulla. Doloribus.",
+                "All prices quoted are in EURO including German VAT and are subject to change without notice. Wildemasche attempts to make all information accurate and current but typing mistakes may occur. Although great care is been taken no responsibility can be accepted for price errors.",
         },
         {
-            title: "User Account, Password, and Security",
+            title: "Delivery and passage of the risk",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, distinctio iste praesentium totam quasi tempore, magnam ipsum cum animi.",
+                "The goods will be shipped ex works Plüderhausen / Germany at the customer's risk and will remain the entire property of Wildemasche until fully paid for. Any damage on the packaging should be reported immediately to the forwarder. The delivery or performance dates specified in the contract are approximate only and unless expressly stated time is not of the essence for delivery. The seller will not be liable in any circumstances for the consequences of any delay caused by strikes, lockouts, fire, accidents, defective materials, delays in receipt of raw materials or brought in goods or components or any other causes beyond the reasonable control of the seller. No delay shall entitle the buyer to reject any delivery or any further installment or to repudiate the contract.",
         },
         {
-            title: "User Conduct",
+            title: "Customs duty and foreign taxes",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, distinctio iste praesentium totam quasi tempore, magnam ipsum cum animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium vel recusandae ad impedit ipsum, vitae facere expedita! Voluptatem iure dolorem dignissimos nisi magni a dolore, et inventore optio, voluptas, obcaecati.",
-            items: [
-                "Lorem ipsum dolor sit amet, consectetur",
-                "Quidem error quae illo excepturi nostrum blanditiis laboriosam",
-                "Molestias, eum nihil expedita dolorum odio dolorem",
-                "Eum nihil expedita dolorum odio dolorem",
-                "Explicabo rem illum magni perferendis",
-            ],
+                "The customer is responsible for any costs involved with customs clearing, import duties, import taxes or any additional shipping charges or costs that appear in his country and/or in the country he wants to have the goods shipped to.",
+            // items: [
+            //     "Lorem ipsum dolor sit amet, consectetur",
+            //     "Quidem error quae illo excepturi nostrum blanditiis laboriosam",
+            //     "Molestias, eum nihil expedita dolorum odio dolorem",
+            //     "Eum nihil expedita dolorum odio dolorem",
+            //     "Explicabo rem illum magni perferendis",
+            // ],
         },
         {
-            title: "International Use",
+            title: "Delivery",
             content:
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, distinctio iste praesentium totam quasi tempore, magnam ipsum cum animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium vel recusandae ad impedit ipsum, vitae facere expedita! Voluptatem iure dolorem dignissimos nisi magni a dolore, et inventore optio, voluptas, obcaecati. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate incidunt aliquam sint, magnam excepturi quas a, id doloremque quasi iusto quo consequuntur dolorum neque optio ipsum, rerum nesciunt illo iure.",
+                "All shipping charges are to be paid by the customer and are shown when checking out in the customers shopping cart. They are billed with the ordered goods. The delivery time ex works Plüderhausen / Germany depends on the country the order is to be shipped to. For details and costs, see shipping options in the cart when checking out, or check the Shipping & Payment section linked from the footer at Wildemasche.com",
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
+        },
+        {
+            title:"",
+            content:""
         },
     ];
     return (
@@ -87,12 +119,12 @@ function tAndC() {
                                     )}
                                 </div>
                             ))}
-                            <div className="d-flex mt-5">
+                            {/* <div className="d-flex mt-5">
                                 <Button color="primary" className="me-1">
                                     Accept
                                 </Button>
                                 <Button color="dark">Close</Button>
-                            </div>
+                            </div> */}
                         </Col>
                     </Row>
                 </Container>

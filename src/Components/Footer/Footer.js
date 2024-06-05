@@ -145,11 +145,11 @@ export default function Footer() {
                         Shipping & Returns
                       </Link>
                     </li>
-                    <li className="mb-3 nav-item">
+                    {/* <li className="mb-3 nav-item">
                       <Link className="nav-link" to="#">
                         Careers
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <Link className="nav-link" to="#">
                         Our Story
