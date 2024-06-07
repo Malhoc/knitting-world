@@ -37,16 +37,19 @@ function ProductListing() {
   });
 
   const [activePage, setActivePage] = useState(1);
-  const pageSize = 9;
-
+  const pageSize = 8;
+  // console.log('page size:',pageSize);
   const handlePageChange = (pageNumber) => {
     setActivePage(pageNumber);
   };
   const totalPages = Math.ceil(filteredProducts.length / pageSize);
+  //console.log('total Pages:',totalPages);
   const startIndex = (activePage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
   const productsToShow = filteredProducts.slice(startIndex, endIndex);
-  const [activeFilter, setActiveFilter] = useState('grid');
+  console.log('products To Show:',productsToShow);
+
+  const [activeFilter, setActiveFilter] = useState('grid'); 
 
   const handleFilterClick = (filter) => {
     setActiveFilter(filter);

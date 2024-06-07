@@ -43,6 +43,8 @@ import MyForm from "./Components/MyForm.js";
 import FeatureIndex2 from "./Components/Feature/FeatureIndex2.js";
 import FeatureIndex from "./Components/Feature/FeatureIndex.js";
 import FootballScarves from "./Pages/FootballScarves.js";
+import OurStory from "./Pages/OurStory.js";
+import ShipAndReturn from "./Pages/ShipAndReturn.js";
 
 function App() {
   const location = useLocation();
@@ -178,6 +180,8 @@ function App() {
           <Route path="/login-2" element={<Login2 />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/privacy-policy" element={<PrivacyPage />} />
+          <Route path="/our-story" element={<OurStory />} />
+          <Route path="/shipping-and-return" element={<ShipAndReturn />} />
           <Route path="/terms-and-conditions" element={<TAndC />} />
           <Route path="/blog-card" element={<BlogCards />} />
           <Route path="/blog-listing" element={<BlogsList1 />} />

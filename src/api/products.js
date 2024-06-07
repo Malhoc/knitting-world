@@ -105,42 +105,9 @@ export default [
         "category": "Scarves",
         "colors": ["Red"]
     },
+   
     {
         "id": 6,
-        "artNo": "1000-0053",
-        "slug": "7g",
-        "name": "Football Scarf Black White",
-        "pictures": ["scarves/football-scarf-white-black.jpg", "scarves/football-scarf-white-black.jpg"],
-        "stock": 32,
-        "price": 3500,
-        "discount": 1000,
-        "salePrice": 2500,
-        "description": "Football scarf with half/half design. The custom scarf for your team in black and white. Design online and create your custom team scarf today. Design with logo, text, cliparts etc. Design is knitted in.",
-        "rating": 5,
-        "tags": ["Women"],
-        "size": ["M", "XL"],
-        "category": "Scarves",
-        "colors": ["Red"]
-    },
-    {
-        "id": 7,
-        "artNo": "1000-0054",
-        "name": "Football Scarf Blue Yellow",
-        "slug": "8h",
-        "pictures": ["scarves/football-scarf-blue-yellow.jpg", "scarves/football-scarf-blue-yellow.jpg"],
-        "stock": 32,
-        "price": 3500,
-        "discount": 1000,
-        "salePrice": 2500,
-        "description": "Football scarf with half/half design. The custom scarf for your team in blue and yellow. Design online and create your custom team scarf today. Design with logo, text, cliparts etc. Design is knitted in.",
-        "rating": 5,
-        "tags": ["Women"],
-        "size": ["M", "XL"],
-        "category": "Scarves",
-        "colors": ["Red"]
-    },
-    {
-        "id": 8,
         "artNo": "1000-0055",
         "name": "Football Scarf Red Black",
         "slug": "9i",
@@ -157,7 +124,7 @@ export default [
         "colors": ["Red"]
     },
     {
-        "id": 9,
+        "id": 7,
         "artNo": "1000-0056",
         "slug": "10j",
         "name": "Football Scarf White Blue",
@@ -174,7 +141,7 @@ export default [
         "colors": ["Red"]
     },
     {
-        "id": 10,
+        "id": 8,
         "artNo": "1000-0057",
         "name": "Football Scarf Dark Blue White",
         "slug": "11k",
@@ -191,7 +158,7 @@ export default [
         "colors": ["Red"]
     },
     {
-        "id": 11,
+        "id": 9,
         "artNo": "1000-0058",
         "name": "Football Scarf Yellow Red",
         "slug": "12l",
@@ -201,6 +168,40 @@ export default [
         "discount": 1000,
         "salePrice": 2500,
         "description": "Football scarf with half/half design. The custom scarf for your team in yellow and red. Design online and create your custom team scarf today. Design with logo, text, cliparts etc. Design is knitted in.",
+        "rating": 5,
+        "tags": ["Women"],
+        "size": ["M", "XL"],
+        "category": "Scarves",
+        "colors": ["Red"]
+    },
+    {
+        "id": 10,
+        "artNo": "1000-0053",
+        "name": "Football Scarf Black White",
+        "slug": "7g",
+        "pictures": ["scarves/football-scarf-white-black.jpg", "scarves/football-scarf-white-black.jpg"],
+        "stock": 32,
+        "price": 3500,
+        "discount": 1000,
+        "salePrice": 2500,
+        "description": "Football scarf with half/half design. The custom scarf for your team in black and white. Design online and create your custom team scarf today. Design with logo, text, cliparts etc. Design is knitted in.",
+        "rating": 5,
+        "tags": ["Women"],
+        "size": ["M", "XL"],
+        "category": "Scarves",
+        "colors": ["Red"]
+    },
+    {
+        "id": 11,
+        "artNo": "1000-0054",
+        "name": "Football Scarf Blue Yellow",
+        "slug": "8h",
+        "pictures": ["scarves/football-scarf-blue-yellow.jpg", "scarves/football-scarf-blue-yellow.jpg"],
+        "stock": 32,
+        "price": 3500,
+        "discount": 1000,
+        "salePrice": 2500,
+        "description": "Football scarf with half/half design. The custom scarf for your team in blue and yellow. Design online and create your custom team scarf today. Design with logo, text, cliparts etc. Design is knitted in.",
         "rating": 5,
         "tags": ["Women"],
         "size": ["M", "XL"],

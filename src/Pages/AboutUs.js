@@ -14,22 +14,22 @@ function AboutUs() {
     {
       icon: <i className="las la-credit-card ic-3x text-primary"></i>,
       title: "Credit Card",
-      description: "Serspiciatis unde omnis iste natus error sit.",
+      // description: "Serspiciatis unde omnis iste natus error sit.",
     },
     {
       icon: <i className="las la-shipping-fast ic-3x text-primary"></i>,
-      title: "Free Shipping",
-      description: "Serspiciatis unde omnis iste natus error sit.",
+      title: "Order Tracking",
+      // description: "Serspiciatis unde omnis iste natus error sit.",
     },
     {
       icon: <i className="las la-history ic-3x text-primary"></i>,
       title: "24/7 Support",
-      description: "Serspiciatis unde omnis iste natus error sit.",
+      // description: "Serspiciatis unde omnis iste natus error sit.",
     },
     {
       icon: <i className="las la-undo-alt ic-3x text-primary"></i>,
       title: "30 Days Returns",
-      description: "Serspiciatis unde omnis iste natus error sit.",
+      // description: "Serspiciatis unde omnis iste natus error sit.",
     },
   ];
   return (

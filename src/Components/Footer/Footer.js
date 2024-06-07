@@ -141,7 +141,7 @@ export default function Footer() {
                       </Link>
                     </li>
                     <li className="mb-3 nav-item">
-                      <Link className="nav-link" to="#">
+                      <Link className="nav-link" to="/shipping-and-return">
                         Shipping & Returns
                       </Link>
                     </li>
@@ -151,7 +151,7 @@ export default function Footer() {
                       </Link>
                     </li> */}
                     <li className="nav-item">
-                      <Link className="nav-link" to="#">
+                      <Link className="nav-link" to="/our-story">
                         Our Story
                       </Link>
                     </li>
