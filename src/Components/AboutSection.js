@@ -21,7 +21,7 @@ const AboutSection = () => {
           </h1> */}
           <div>
             <h6 className="text-primary mb-1">— About</h6>
-            <h2 className="mb-0">Knitting with Warmness</h2>
+            <h3 className="mb-0">Proudly Supporting Your Team<br/> Since 2013</h3>
           </div>
           <p className="mb-4 animated3">
             Welcome to <span className="text-primary">Knitting World</span>, the wholesale destination for
