@@ -19,10 +19,9 @@ const FootballScarvesSec = () => {
             New Arrival <span className="font-w-8">Modern Chair</span>
           </h1> */}
           {/* Product Development */}
-          <div>
+          <div className="ml-3">
             <h6 className="text-primary mb-1">— Specifications</h6>
             <h2 className="mb-0">Custom Football Scarves</h2>
-          </div>
           <ul className="ml-2 specs_list" style={{color:'#8090b5', lineHeight:'1.7'}}>
             <li className="">
               Football scarf with your fully customized design knitted in
@@ -36,6 +35,7 @@ const FootballScarvesSec = () => {
             </li>
             <li>Material: 100% soft acrylic yarn. Up to 5 colors per scarf, pick from palette with 26 colors.</li>
           </ul>
+          </div>
           {/* <p className="mb-4 animated3">
             At Knitting World, foresight is our forte. With a relentless
             commitment to innovation, we're perpetually expanding our knitted

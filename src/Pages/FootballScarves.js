@@ -90,10 +90,10 @@ function FootballScarves() {
               
               </Col>
               <Col lg="5">
-                <div>
+                <div className="mt-3">
                   <h6 className="text-primary mb-1">— Specifications</h6>
                   <ul
-                    className="ml-3"
+                    className="ml-3 mb-1"
                     style={{
                       fontFamily: "Inter, sans-serif",
                       fontSize: "13px",
@@ -144,13 +144,13 @@ function FootballScarves() {
                       Designer, product preview and actual product. Click the
                       color palette below for more details.{" "}
                     </li>
+                  </ul>
                     <img
                       class="img-responsive"
                       src="https://www.wildemasche.com/out/dd_roxive/oxbaseshop/en/img/farben-acryl.png"
                       title="Farben Acryl"
                       alt="Farben Acryl"
                     />
-                  </ul>
                   {/* <ul
                     className="ml-3 specs_list"
                     style={{ color: "#8090b5", lineHeight: "1.7" }}

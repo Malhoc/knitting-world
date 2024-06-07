@@ -22,7 +22,7 @@ const KnitwearSec = () => {
           }}
           className=""
         >
-          <div style={{ display: "flex", justifyContent: "center" }}>
+          <div className="" style={{ display: "flex", justifyContent: "center",textAlign: "center" }}>
             <h3
               className=""
               style={{
